@@ -5,7 +5,7 @@ module.exports = {
    * Web3.js Transport Wrapper
    *
    * Wraps an underlying web3 provider's RPC transport methods (send/sendAsync)
-   * for Truffle-specific purposes, mainly for logging / request verbosity.
+   * for Moxie-specific purposes, mainly for logging / request verbosity.
    */
   wrap: function(provider, options) {
     /* wrapping should be idempotent */

@@ -24,7 +24,7 @@ module.exports = {
   test_connection: function(provider, callback) {
     var web3 = new Web3();
     web3.setProvider(provider);
-    web3.eth.getCoinbase(function(error, coinbase) {
+    web3.vap.getCoinbase(function(error, coinbase) {
       if (error != null) {
         error = new Error("Could not connect to your RPC client. Please check your RPC configuration.");
       }

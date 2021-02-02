@@ -1,6 +1,6 @@
 var assert = require("assert");
 var Web3 = require("web3");
-var TestRPC = require("ethereumjs-testrpc");
+var TestRPC = require("vaporyjs-testrpc");
 var Provider = require("../index");
 
 describe("Provider", function() {

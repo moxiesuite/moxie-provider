@@ -25,10 +25,10 @@
   "homepage": "https://github.com/moxiesuite/moxie-provider#readme",
   "dependencies": {
     "moxie-error": "^0.0.2",
-    "@vapory/web3": "^0.20.1"
+    "@vapory/web3": "0.20.4-b"
   },
   "devDependencies": {
-    "@moxie-suite/ganache-cli": "6.0.3",
+    "@moxiesuite/ganache-cli": "6.0.3",
     "mocha": "^3.3.0"
   }
 }

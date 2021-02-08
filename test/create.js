@@ -1,6 +1,6 @@
 var assert = require("assert");
-var Web3 = require("web3");
-var TestRPC = require("vaporyjs-testrpc");
+var Web3 = require("@vapory/web3");
+var TestRPC = require("@moxiesuite/ganache-cli");
 var Provider = require("../index");
 
 describe("Provider", function() {
